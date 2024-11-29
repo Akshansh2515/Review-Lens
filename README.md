@@ -59,6 +59,19 @@ Install the necessary libraries:
       
       pip install -r requirements.txt
 
+## Requirements File (requirements.txt):
+txt
+      
+      selenium==4.1.0
+      textblob==0.15.3
+      gitpython==3.1.24
+
+Make sure to include the required dependencies in the requirements.txt file. You can generate this by running:
+      bash~
+            
+            pip freeze > requirements.txt
+
+
 ## Contributing
 If you'd like to contribute to this project, feel free to fork the repository, make changes, and submit a pull request. Here are a few ways you can contribute:
 
