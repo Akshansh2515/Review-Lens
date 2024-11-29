@@ -24,31 +24,39 @@ Installation
 To run this project on your local machine, follow the steps below.
 
 ## Prerequisites:
+
 Ensure you have the following installed:
 Python 3.x
 Chrome browser (or other supported browser)
 ChromeDriver (for Chrome browser)
 Git for version control
+
 Step-by-Step Installation:
 1- Clone the Repository:
       bash~
+      
         git clone https://github.com/YourUsername/Google-Maps-Sentiment-Analysis.git
         cd Google-Maps-Sentiment-Analysis
+        
 2- Install Required Python Packages:
       Create a virtual environment
       bash~ 
+          
           python -m venv venv
       
   Activate the virtual environment:
   On Windows:
   bash~
+      
       .\venv\Scripts\activate
   On Mac/Linux:
   bash~
+      
       source venv/bin/activate
 
 Install the necessary libraries:
   bash~
+      
       pip install -r requirements.txt
 
 ## Contributing
